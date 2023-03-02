@@ -1,0 +1,29 @@
+/*tablet media starts here*/
+@media screen and (max-width:1000px) {
+    .body {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .main__container {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .title {
+        font-size: 72px;
+        line-height: 83px;
+        letter-spacing: -1.6px;
+    } 
+    .text__title{
+        margin-bottom:4rem;
+    }
+    .navbar{
+        justify-content: space-between
+    }
+    .image__style{
+        margin-top:-2rem;
+        max-width:617px;
+        width:100%;
+        max-height:512px;
+        height:100%;
+    }
+}

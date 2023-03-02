@@ -1,0 +1,55 @@
+@media screen and (min-width:320px) and (max-width:499px) {
+    .body {
+        align-items: center;
+        flex-wrap: wrap;
+        min-height:568px;
+    }
+
+    .main__container {
+        max-width:211px;
+        width:100%;
+        text-align: center;
+        justify-content:center;
+    }
+   
+    
+    .title{
+        font-size: 36px;
+        line-height:40px;
+        letter-spacing:-0.8px;
+        text-align:center;
+        
+    }
+
+    .text__title {
+        font-size: 12px;
+        line-height: 18px;
+        text-align:center;
+    }
+
+    .image__style{
+        max-width:256px;
+        max-height:284px;
+        margin-top:-2rem;
+        margin-left: 32px;
+        margin-right: 32px;
+        
+    }
+    .navbar__list{
+        display:none;
+    }
+    .ellipsis__icon{
+        display:flex;
+        justify-content:flex-end;
+        float:right;
+
+    }
+    .list__item{
+        text-align:center;
+        display:block;
+       
+    }
+    .navbar{
+        justify-content:space-between;
+    }
+}
