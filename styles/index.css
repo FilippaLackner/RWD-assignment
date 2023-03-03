@@ -16,8 +16,7 @@ body {
 
 .navbar__logo{
     margin-left: 2rem;
-    max-width: 5rem;
-    max-height:1rem;
+    max-width: 100%;
 }
 
 .navbar__list{
